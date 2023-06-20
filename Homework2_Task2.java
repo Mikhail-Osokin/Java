@@ -2,13 +2,17 @@ import java.io.FileWriter;
 
 public class Homework2_Task2 {
     public static void main(String[] args) {
-        int [] arr = {1, 3, 4, 2};
+        int [] arr = {5, 1, 3, 4, 2};
  
         boolean flag = false;
         int a;
         try
         {
             FileWriter writer = new FileWriter("file.txt",true);
+                for (int i = 0; i < arr.length; i++) {    
+                    writer.write(arr[i]+" ");
+                }
+                writer.write("\n");
                 while(!flag) {
                 flag = true;
                 for (int i = 0; i < arr.length-1; i++) {
