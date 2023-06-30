@@ -10,10 +10,8 @@ public class Homework6_Task13 {
         set.add(new Notebook("Notebook 2", 16, "Windows10", 105000, "Redmi"));
         set.add(new Notebook("Notebook 3", 32, "linux", 95000, "Lenovo"));
         set.add(new Notebook("Notebook 4", 64, "linux", 120000, "Lenovo"));
-
         Homework6_Task12 operation = new Homework6_Task12(set);
         operation.start();
-
     }
 }
 
